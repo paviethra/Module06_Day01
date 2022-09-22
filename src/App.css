@@ -1,0 +1,89 @@
+
+*{
+  margin: 0px;
+  box-sizing: border-box;
+ 
+}
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: aliceblue;
+}
+
+
+h2{
+  font-size: 40px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#calculator{
+  width: 260px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  padding: 10px;
+  background-color: black;
+}
+
+table td{
+  display: inline-block;
+}
+
+button{
+  margin: 3px;
+  width: 50px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  background-color: #644606;
+  color: #dfdfdf;
+  font-size: 16px;
+  transition: all 500ms ease-in-out;
+}
+button:hover{
+  background-color: #e29d09;
+}
+
+.btn_ac{
+  background-color: #d3930b;
+  width: 108px;
+}
+
+.btn_ac:hover{
+  background-color: #6e4d06;
+}
+
+.btn_operator{
+  background-color: #d3930b;
+}
+.btn_operator:hover{
+  background-color: #6e4d06;
+}
+
+btn:hover{
+  background-color: #745107;
+}
+
+.btn_total{
+  background-color: #d3930b;
+  width: 108px;
+}
+
+.btn_total:hover{
+  background-color: #745107;
+}
+
+#result{
+  height: 100px;
+  color: #dfdfdf;
+  text-align: right;
+  font-size: 35px;
+  word-wrap: break-word;
+  border-bottom: 1px solid #e29d09;
+  line-height: 100px;
+
+}
+
